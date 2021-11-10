@@ -1,0 +1,44 @@
+[
+    {
+        "active": true,
+        "api_id": "api1id",
+        "domain": "localhost",
+        "name": "API 1",
+        "slug": "api1",
+        "proxy": {
+            "listen_path": "/echo1/",
+            "strip_listen_path": false,
+            "target_url": "http://localhost:51773/"
+        },
+        "use_keyless": true,
+        "version_data": {
+            "not_versioned": true,
+            "versions": {
+                "Default": {
+                    "name": "Default"
+                }
+            }
+        }
+    },
+    {
+        "active": true,
+        "api_id": "api2id",
+        "domain": "localhost",
+        "name": "API 2",
+        "slug": "api2",
+        "proxy": {
+            "listen_path": "/echo2/",
+            "strip_listen_path": false,
+            "target_url": "http://localhost:51773/"
+        },
+        "use_keyless": true,
+        "version_data": {
+            "not_versioned": true,
+            "versions": {
+                "Default": {
+                    "name": "Default"
+                }
+            }
+        }
+    }
+]
